@@ -6,7 +6,6 @@
  * - version: The version of the module.
  * - author: The author of the module.
  * - summary: A brief summary of what the module does.
- * - license: The license under which the module is distributed.
  * - source: The URL to the source repository of the module.
  * - dependencies: A list of other Puppet modules that this module depends on.
  * - description: A detailed description of the module.
@@ -15,10 +14,9 @@
 {
   "name": "appdynamics-puppet",
   "version": "24.10",
-  "author": "Your Name",
+  "author": "Vineet Rana",
   "summary": "Puppet module for installing AppDynamics agent",
-  "license": "Apache-2.0",
-  "source": "https://github.com/yourusername/appdynamics-puppet",
+  "source": "https://github.com/vineetranaji/appdynamics-puppet",
   "dependencies": [],
   "description": "This module provides a way to install and configure the AppDynamics agent using Puppet.",
   "tags": ["appdynamics", "puppet", "monitoring"]
