@@ -14,7 +14,7 @@
  */
 {
   "name": "appdynamics-puppet",
-  "version": "1.0.0",
+  "version": "24.10",
   "author": "Your Name",
   "summary": "Puppet module for installing AppDynamics agent",
   "license": "Apache-2.0",
