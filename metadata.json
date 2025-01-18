@@ -1,3 +1,17 @@
+/*
+ * This is the metadata file for the AppDynamics Puppet module.
+ * 
+ * Fields:
+ * - name: The name of the module.
+ * - version: The version of the module.
+ * - author: The author of the module.
+ * - summary: A brief summary of what the module does.
+ * - license: The license under which the module is distributed.
+ * - source: The URL to the source repository of the module.
+ * - dependencies: A list of other Puppet modules that this module depends on.
+ * - description: A detailed description of the module.
+ * - tags: A list of tags associated with the module.
+ */
 {
   "name": "appdynamics-puppet",
   "version": "1.0.0",

@@ -1,8 +1,6 @@
-#!/bin/bash
-
 # Define variables
-APPDYNAMICS_VERSION="latest"
-INSTALLER_URL="https://download.appdynamics.com/agent/appdynamics-agent-${APPDYNAMICS_VERSION}.sh"
+APPDYNAMICS_VERSION="latest" # or specify a version number
+INSTALLER_URL="https://download.appdynamics.com/agent/appdynamics-agent-${APPDYNAMICS_VERSION}.sh" #you can use artifactory url as well
 INSTALLER_FILE="appdynamics-agent.sh"
 
 # Download the AppDynamics installer
