@@ -23,4 +23,13 @@ class appdynamics {
     mode    => '0644', # Set the file permissions to be readable
     require => Exec['install_appdynamics'], # Ensure the exec resource is applied before this file
   }
+
+  # Ensure the AppDynamics service is running
+  service { 'appdynamics':
+    ensure     => running, # Ensure the service is running
+    enable     => true, # Enable the service to start on boot
+    hasstatus  => true, # The service has a status command
+    hasrestart => true, # The service has a restart command
+    require    => File['/etc/appdynamics/config.conf'], # Ensure the config file is present before starting the service
+  }
 }
