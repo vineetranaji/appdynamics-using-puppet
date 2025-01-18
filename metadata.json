@@ -1,0 +1,11 @@
+{
+  "name": "appdynamics-puppet",
+  "version": "1.0.0",
+  "author": "Your Name",
+  "summary": "Puppet module for installing AppDynamics agent",
+  "license": "Apache-2.0",
+  "source": "https://github.com/yourusername/appdynamics-puppet",
+  "dependencies": [],
+  "description": "This module provides a way to install and configure the AppDynamics agent using Puppet.",
+  "tags": ["appdynamics", "puppet", "monitoring"]
+}
